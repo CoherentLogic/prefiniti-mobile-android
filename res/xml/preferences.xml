@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Server Settings">
+        <EditTextPreference android:key="deviceCode" android:title="Device Code"></EditTextPreference>
+        <EditTextPreference android:title="Server URL" android:key="serverURI"></EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Solution Quality">
+        <EditTextPreference android:defaultValue="1" android:title="Epoch Count" android:key="epochCount"></EditTextPreference>
+        <EditTextPreference android:key="minAccuracy" android:title="Min. Accuracy"></EditTextPreference>
+        <ListPreference android:title="Provider" android:key="solutionProvider" android:entries="@array/prefProviderEntries" android:entryValues="@array/prefProviderValues" android:defaultValue="gps"></ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

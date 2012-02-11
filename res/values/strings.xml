@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CheckIn!</string>
+    <string name="app_name">Prefiniti Check-In</string>
+    <string name="UpdateButtonCaption">Check In</string>
+    <string name="strEnterComment">Enter Comment</string>
+    <string name="settings_string">Settings</string>
+    <string name="strUseNetwork">Use Network</string>
+    <string name="strUseGPS">Use GPS</string>
+    <string name="strAveraging">Averaging position (3/3 epochs)</string>
+    <string-array name="prefProviderEntries">
+        <item>Network</item>
+        <item>GPS</item>
+    </string-array>
+    <string-array name="prefProviderValues">
+        <item>network</item>
+        <item>gps</item>
+    </string-array>
+</resources>
