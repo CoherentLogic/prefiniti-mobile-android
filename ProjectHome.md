@@ -1,0 +1,1 @@
+Provides native Android support for the Prefiniti network.
